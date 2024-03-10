@@ -15,7 +15,7 @@ public class InvertedIndexClientTest {
  @Test
  public void testInvertedIndex() throws Exception {
      // Locate the registry and get the stub of the service
-	 String endpoint = "rmi://localhost:8099/InvertedIndexService";
+	 String endpoint = "rmi://155.248.230.141:8099/InvertedIndexService";
 
      InvertedIndexService service = (InvertedIndexService) 
      						Naming.lookup(endpoint);
